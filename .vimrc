@@ -26,10 +26,6 @@ let g:livepreview_previewer = 'zathura'
 " Colorscheme
 set termguicolors
 
-" for solarized 1
-"let g:solarized_termcolors=256
-" end for solarized 1
-
 set background=dark
 colorscheme pablo
 

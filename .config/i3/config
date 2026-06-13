@@ -63,7 +63,6 @@ tiling_drag modifier titlebar
 # start a terminal
 bindsym $mod+Return exec alacritty
 
-# start web browser
 bindsym $mod+b exec helium-browser
 
 # kill focused window

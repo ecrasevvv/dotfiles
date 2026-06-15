@@ -6,6 +6,8 @@
 [[ $- != *i* ]] && return
 export HISTSIZE=10000
 export EDITOR='vim'
+export XCURSOR_THEME=Bibata-Modern-Classic
+export XCURSOR_SIZE=20
 
 # remaps
 setxkbmap -option caps:escape

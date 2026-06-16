@@ -10,16 +10,16 @@ family = "Ubuntu Mono" # Linux/BSD
 style = "Regular"
 
 [colors]
-primary.background = "#000000" #"#062329"
+primary.background = "#181818" #"#062329"
 
 [colors.normal]
 red = "#ff0000"
 green = "#00ff00"
-blue = "#0000ff"
+#blue = "#0000ff"
 magenta = "#6a0dad"
 
 [colors.bright]
 red = "#ff0000"
 green = "#00ff00"
-blue = "#0000ff"
+#blue = "#0000ff"
 magenta = "#6a0dad"

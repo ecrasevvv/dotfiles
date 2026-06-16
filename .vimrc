@@ -1,5 +1,4 @@
 execute pathogen#infect()
-
 syntax on
 set nocompatible
 set expandtab
@@ -27,7 +26,8 @@ let g:livepreview_previewer = 'zathura'
 set termguicolors
 
 set background=dark
-colorscheme pablo
+colorscheme retrobox
+highlight Normal guibg=#181818
 
 " LSP
 function! s:on_lsp_buffer_enabled() abort

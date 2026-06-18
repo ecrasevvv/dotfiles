@@ -27,7 +27,9 @@ set termguicolors
 
 set background=dark
 colorscheme retrobox
-highlight Normal guibg=#181818
+highlight Normal guibg=NONE
+"highlight Normal guibg=#181818
+highlight Visual guibg=#0000ff guifg=#ffffff
 
 " LSP
 function! s:on_lsp_buffer_enabled() abort

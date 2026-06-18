@@ -26,7 +26,7 @@ exec --no-startup-id picom --backend glx --vsync
 exec_always --no-startup-id xmodmap ~/.Xmodmap
 
 # Wallpaper
-exec_always --no-startup-id feh --bg-fill ~/Images/Wallpapers/ubuntux.jpg
+exec_always --no-startup-id feh --bg-fill ~/Images/Wallpapers/mountains.jpg
 
 # Screenshots
 bindsym $mod+p exec flameshot gui

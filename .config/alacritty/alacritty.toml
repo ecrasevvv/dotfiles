@@ -5,11 +5,11 @@ opacity = 0.95
 size = 8 
 
 [font.normal]
-family = "Ubuntu Mono" # Linux/BSD
+family = "SF Mono" # Linux/BSD
 style = "Regular"
 
 [font.italic]
-family = "Ubuntu Mono" # Linux/BSD
+family = "SF Mono" # Linux/BSD
 style = "Regular"
 
 [colors]

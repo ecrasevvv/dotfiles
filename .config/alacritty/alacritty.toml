@@ -1,29 +1,27 @@
 [window]
-opacity = 0.95
+opacity = 0.90
 
 [font]
 size = 8 
 
 [font.normal]
-family = "SF Mono" # Linux/BSD
+family = "Comic Mono" # Linux/BSD
 style = "Regular"
 
 [font.italic]
-family = "SF Mono" # Linux/BSD
+family = "Comic Mono" # Linux/BSD
 style = "Regular"
 
 [colors]
-primary.background = "#181818" #"#062329"
+primary.background = "#000000" #"#062329"
 primary.foreground = "#ffffff" #"#062329"
 
 [colors.normal]
 red = "#ff0000"
 green = "#00ff00"
 blue = "#0000ff"
-magenta = "#6a0dad"
 
 [colors.bright]
 red = "#ff0000"
 green = "#00ff00"
 blue = "#0000ff"
-magenta = "#6a0dad"

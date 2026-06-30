@@ -26,7 +26,7 @@ let g:livepreview_previewer = 'zathura'
 set termguicolors
 
 set background=dark
-colorscheme retrobox
+colorscheme default
 highlight Normal guibg=NONE
 "highlight Normal guibg=#181818
 highlight Visual guibg=#0000ff guifg=#ffffff

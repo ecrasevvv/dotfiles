@@ -26,10 +26,10 @@ exec --no-startup-id picom --backend glx --vsync
 exec_always --no-startup-id xmodmap ~/.Xmodmap
 
 # Wallpaper
-exec_always --no-startup-id feh --bg-fill ~/Images/Wallpapers/mountains.jpg
+exec_always --no-startup-id feh --bg-max ~/Images/Wallpapers/ldr1.jpg
 
 # Screenshots
-bindsym $mod+p exec flameshot gui
+bindsym $mod+p exec ksnip -r
 
 # Start XDG autostart .desktop files using dex. See also
 # https://wiki.archlinux.org/index.php/XDG_Autostart

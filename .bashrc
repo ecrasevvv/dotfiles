@@ -31,7 +31,7 @@ alias vv='vim ~/Notes/diary.md'
 alias ..='cd ..'
 
 # default
-PS1='[\u@\h \W]\e[32m\]$(parse_git_branch)\[\e[00m\]\$ '
+PS1='[\u@\h \W]\e[32m\]$(parse_git_branch)\[\e[00m\]# '
 #export PS1='\u@\h:\[\e[33m\]\w\[\e[0m\]\$ '
 parse_git_branch() {
      git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\1)/'

@@ -1,16 +1,16 @@
 [window]
-opacity = 0.90
+#opacity = 0.90
 
 [font]
 size = 8 
 
 [font.normal]
-family = "Comic Mono" # Linux/BSD
-style = "Regular"
+family = "Comic Code" # Linux/BSD
+style = "Semibold"
 
 [font.italic]
-family = "Comic Mono" # Linux/BSD
-style = "Regular"
+family = "Comic Code" # Linux/BSD
+style = "Semibold"
 
 [colors]
 primary.background = "#000000" #"#062329"

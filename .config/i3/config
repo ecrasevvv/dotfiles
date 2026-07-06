@@ -13,7 +13,7 @@ set $mod Mod4
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
-font pango:Ubuntu Mono 12
+font pango:Comic Mono 12
 
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
@@ -26,7 +26,7 @@ exec --no-startup-id picom --backend glx --vsync
 exec_always --no-startup-id xmodmap ~/.Xmodmap
 
 # Wallpaper
-exec_always --no-startup-id feh --bg-max ~/Images/Wallpapers/ldr1.jpg
+exec_always --no-startup-id feh --bg-fill ~/Images/Wallpapers/linux.png
 
 # Screenshots
 bindsym $mod+p exec ksnip -r
@@ -203,7 +203,7 @@ bindsym $mod+r mode "resize"
 bar {
         status_command i3status
         tray_output eDP-1
-        font pango: Ubuntu Mono 12
+        font pango: Comic Mono 12
         colors {
 # default focused_workspace background = #285577
             #                  border   background text

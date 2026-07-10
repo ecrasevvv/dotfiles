@@ -30,3 +30,15 @@ colorscheme default
 highlight Normal guibg=NONE
 "highlight Normal guibg=#181818
 highlight Visual guibg=#0000ff guifg=#ffffff
+highlight MatchParen guibg=#0000ff guifg=#ffffff
+
+augroup RestoreCursor
+    autocmd!
+    autocmd BufReadPost *
+                \ let line = line("'\"")
+                \ | if line >= 1 && line <= line("$") && &filetype !~# 'commit'
+                \      && index(['xxd', 'gitrebase'], &filetype) == -1
+                \      && !&diff
+                \ |   execute "normal! g`\""
+                \ | endif
+augroup END

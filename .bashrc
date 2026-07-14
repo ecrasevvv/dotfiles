@@ -29,6 +29,7 @@ alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 alias vv='vim ~/Notes/diary.md'
 alias ..='cd ..'
+alias vdiff='git difftool'
 
 # default
 PS1='[\u@\h \W]\e[32m\]$(parse_git_branch)\[\e[00m\]# '
